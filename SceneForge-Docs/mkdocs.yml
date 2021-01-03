@@ -1,0 +1,23 @@
+site_name: SceneForge Studio
+repo_url: https://github.com/MidnightCoffeeInc/SceneForge-Studio-Example
+repo_name: Download Test Project
+edit_uri: ""
+nav:
+    - Home: index.md
+    - Getting Started: gettingStarted.md
+theme:
+  name: 'material'
+  palette:
+    scheme: 'slate'
+    primary: deep purple
+  font:
+    text: Open-Sans
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+
+
+  icon:
+    repo: fontawesome/brands/github
+  hide:
+    - navigation # Hide navigation
