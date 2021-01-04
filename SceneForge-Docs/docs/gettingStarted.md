@@ -1,7 +1,15 @@
 
 # Getting Started
 
+
 ## Creating a Project
+To create a project, select the `New Project` option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
+![Screenshot](img/mainMenu.png)
+Next, choose a name and for the project (below) using the VR keyboard now enabled.
+![Screenshot](img/createProject.png)
+Next, choose a location using the file browser.
+![Screenshot](img/fileSelector.png)
+
 When creating a project with Sceneforge, the software will automatically generate the required file structure in your specified directory. When opening a project, Sceneforge will check if the file structure is correct, and will fix/add any incorrect folders.
 
 *It is important that you add any assets before opening the project. - See Known Issues.*
@@ -19,15 +27,9 @@ When creating a project with Sceneforge, the software will automatically generat
 │  └─ [PROJECT NAME].vps --- This is the actual project file.
 ```
 ---
-## Scene Controls
-**To move around the scene, you have three options.**
+## Opening an Existing Project
+To Open an existing project, select the `Open Project` option in the main menu (pictured above).
 
-1. You can physically walk around your designated play area.
-2. Hold both grip buttons (or grab on Valve Index) and and manipulate the scene around you.
-3. Hold the left trigger to show a teleport indicator.  Release the trigger to teleport to the chosen spot.
-
-** Manipulating Objects**
-
-Your left controller has a pointer that can interact with UI and objects.
-To interact with an object, click the left trigger while pointing at at either a UI panel or object in the scene.
-When you click an object, it becomes highlighted. Click the object again to unhighlight it.
+Next, navigate to the location of your `.vps` file using the file browser (pictured below).
+![Screenshot](img/fileSelector.png)
+---

@@ -5,6 +5,8 @@ edit_uri: ""
 nav:
     - Home: index.md
     - Getting Started: gettingStarted.md
+    - Scene Controls: sceneControls.md
+    - The Camera: cameras.md
 theme:
   name: 'material'
   palette:
@@ -21,3 +23,6 @@ theme:
     repo: fontawesome/brands/github
   hide:
     - navigation # Hide navigation
+
+markdown_extensions:
+  - attr_list
