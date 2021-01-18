@@ -12,8 +12,6 @@ Next, choose a location using the file browser.
 
 When creating a project with Sceneforge, the software will automatically generate the required file structure in your specified directory. When opening a project, Sceneforge will check if the file structure is correct, and will fix/add any incorrect folders.
 
-*It is important that you add any assets before opening the project. - See Known Issues.*
-
 ```
 ├─ Project Root Folder/
 │  └─ 3D Models          --- Place all 3D Model files here.
@@ -30,6 +28,11 @@ When creating a project with Sceneforge, the software will automatically generat
 ## Opening an Existing Project
 To Open an existing project, select the `Open Project` option in the main menu (pictured above).
 
-Next, navigate to the location of your `.vps` file using the file browser (pictured below).
-![Screenshot](img/fileSelector.png)
+Next, navigate to the location of your `.vps` file using the file browser (pictured above).
+
 ---
+## Importing Custom Assets
+SceneForge Studio accepts different file types for different types of assets:
+
+* For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.  It will also read .zip archives containing those formats and their textures.
+* For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.

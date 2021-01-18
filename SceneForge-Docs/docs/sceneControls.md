@@ -7,7 +7,7 @@
 The toolbar displays the project name, as well as several functions for the project.
 Many of these options are self explanatory.
 
-`Scripting` is a feature coming in future releases, and `Refresh Project` reloads the database of objects and textures, allowing for importing new assets while the application is running (alpha feature).
+`Scripting` is a feature coming in future releases, and `Refresh Project` reloads the database of objects and textures, allowing for importing new assets while the application is running.  This will cause the VR display to fade to black for a moment, allowing all the new assets to be loaded in without dropping frames.
 
 
 ## Navigating the Scene
