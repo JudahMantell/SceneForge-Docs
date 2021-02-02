@@ -1,6 +1,6 @@
 site_name: SceneForge Studio
-repo_url: https://github.com/MidnightCoffeeInc/SceneForge-Studio-Example
-repo_name: Download Test Project
+# repo_url: https://github.com/MidnightCoffeeInc/SceneForge-Studio-Example
+# repo_name: Download Test Project
 edit_uri: ""
 nav:
     - Home: index.md
@@ -8,6 +8,7 @@ nav:
     - Scene Controls: sceneControls.md
     - The Camera: cameras.md
     - Rigged Characters: characters.md
+    - Storyboards: storyboards.md
 theme:
   name: 'material'
   palette:

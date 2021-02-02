@@ -45,6 +45,12 @@ To toggle scale mode (as indicated by the small `Transform` Gizmo on the right c
 
 ### Object Properties Panel ###
 This panel will show either the scene hierarchy or object properties depending on if/what object is selected.  
+
+Every object, when selected (except backdrops), brings up this default toolbar.  
+These functions delete the object, reset the rotation of the object, or toggle *interactability.* (Whether or not the object can be grabbed with the grip button.  This is not recommended for larger objects.)
+
+![Screenshot](img\objectPropertiesToolbar.png)
+
 In the example below, there will either be a list of objects in the scene (left; there aren't any objects yet) or options specific to the type of object (right; a light is selected).
 
 

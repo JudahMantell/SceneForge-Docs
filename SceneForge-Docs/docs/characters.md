@@ -5,7 +5,7 @@ When configuring rigged characters in the scene, there are two options:
 
 ### Humanoid Rigs ###
 Humanoid character rigs are read by finding bones named one of the following: "head", "foot", "hand".
-The IK rig is then created, allowing the user to pose the model as needed.
+The IK rig is then created, allowing the user to pose the model as needed by grabbing those bones (See "Posing Characters" below).
 
 ### Non-Humanoid Rigs ###
 Non-Humanoid character rigs are read by finding the end "leaf" bones of each extremity.  This can be used for any type of rigged model including animals.  
@@ -21,4 +21,4 @@ An example of this is as follows:
 ```
 
 ### Posing Characters ###
-To pose characters, grab and manipulate the IK indicators (shown below).  The positions of these markers are saved in the .VPS file, just like everything else.
+To pose characters, grab and manipulate the IK indicator orbs.  The positions of these markers are saved in the .VPS file, and will persist between sessions, just like everything else in the scene.

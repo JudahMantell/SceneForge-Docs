@@ -7,6 +7,7 @@ To create a project, select the `New Project` option in the main menu (pictured 
 ![Screenshot](img/mainMenu.png)
 Next, choose a name and for the project (below) using the VR keyboard now enabled.
 ![Screenshot](img/createProject.png)
+
 Next, choose a location using the file browser.
 ![Screenshot](img/fileSelector.png)
 
@@ -32,7 +33,10 @@ Next, navigate to the location of your `.vps` file using the file browser (pictu
 
 ---
 ## Importing Custom Assets
+To import custom art assets, simply drag the file(s) to their respective folders in the project directory.
+
 SceneForge Studio accepts different file types for different types of assets:
 
-* For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.  It will also read .zip archives containing those formats and their textures.
+* For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.  
+It will also read .zip archives containing those formats and their textures.
 * For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.
