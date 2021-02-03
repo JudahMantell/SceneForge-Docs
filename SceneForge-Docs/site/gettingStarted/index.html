@@ -218,6 +218,18 @@
   </li>
 
       
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../issues/" class="md-tabs__link">
+      Known Issues
+    </a>
+  </li>
+
+      
     </ul>
   </div>
 </nav>
@@ -381,6 +393,19 @@
   </li>
 
     
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../issues/" class="md-nav__link">
+      Known Issues
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -450,12 +475,13 @@ Next, choose a name and for the project (below) using the VR keyboard now enable
 <p>When creating a project with Sceneforge, the software will automatically generate the required file structure in your specified directory. When opening a project, Sceneforge will check if the file structure is correct, and will fix/add any incorrect folders.</p>
 <pre><code>├─ Project Root Folder/
 │  └─ 3D Models          --- Place all 3D Model files here.
+│  └─ Textures           --- Place all .PNG textures here.
+│  └─ 360 Images         --- Place all .PNG 360 Degree/Pano images here.
 │  └─ Audio              --- Place all audio files here.
 │  └─ Image Output       --- This is where all taken photos are exported.
 │  └─ Scenes             --- This is where all scenes are stored
 │  └─ Scripts            --- This is where all scripts are stored.
 │  └─ Storyboards        --- This is where all storyboards are exported.
-│  └─ Textures           --- This is where all temporary files are stored.
 │  └─ Video Output       --- This is where all taken videos are stored.
 │  └─ [PROJECT NAME].vps --- This is the actual project file.
 </code></pre>
@@ -463,6 +489,7 @@ Next, choose a name and for the project (below) using the VR keyboard now enable
 <h2 id="opening-an-existing-project">Opening an Existing Project</h2>
 <p>To Open an existing project, select the <code>Open Project</code> option in the main menu (pictured above).</p>
 <p>Next, navigate to the location of your <code>.vps</code> file using the file browser (pictured above).</p>
+<p>After loading, you will be taken to your loaded scene.</p>
 <hr />
 <h2 id="importing-custom-assets">Importing Custom Assets</h2>
 <p>To import custom art assets, simply drag the file(s) to their respective folders in the project directory.</p>
@@ -471,6 +498,7 @@ Next, choose a name and for the project (below) using the VR keyboard now enable
 <li>For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.<br />
 It will also read .zip archives containing those formats and their textures.</li>
 <li>For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.</li>
+<li>For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the <em>equirectangular</em> 360 Degree/Panorama image format.</li>
 </ul>
                 
               

@@ -16,12 +16,13 @@ When creating a project with Sceneforge, the software will automatically generat
 ```
 ├─ Project Root Folder/
 │  └─ 3D Models          --- Place all 3D Model files here.
+│  └─ Textures           --- Place all .PNG textures here.
+│  └─ 360 Images         --- Place all .PNG 360 Degree/Pano images here.
 │  └─ Audio              --- Place all audio files here.
 │  └─ Image Output       --- This is where all taken photos are exported.
 │  └─ Scenes             --- This is where all scenes are stored
 │  └─ Scripts            --- This is where all scripts are stored.
 │  └─ Storyboards        --- This is where all storyboards are exported.
-│  └─ Textures           --- This is where all temporary files are stored.
 │  └─ Video Output       --- This is where all taken videos are stored.
 │  └─ [PROJECT NAME].vps --- This is the actual project file.
 ```
@@ -30,6 +31,8 @@ When creating a project with Sceneforge, the software will automatically generat
 To Open an existing project, select the `Open Project` option in the main menu (pictured above).
 
 Next, navigate to the location of your `.vps` file using the file browser (pictured above).
+
+After loading, you will be taken to your loaded scene.
 
 ---
 ## Importing Custom Assets
@@ -40,3 +43,4 @@ SceneForge Studio accepts different file types for different types of assets:
 * For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.  
 It will also read .zip archives containing those formats and their textures.
 * For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.
+* For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the *equirectangular* 360 Degree/Panorama image format.

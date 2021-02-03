@@ -41,7 +41,7 @@ To toggle the camera, press the (Y) button on your VR controller.
 
 * Letterbox Toggle -- This toggles a letterbox effect around the Camera UI. This is an aesthetic choice within the editor only.
 
-* Bloom -- This slider controls the level of bloom in the camera viewport.
+* Bloom -- This slider controls the level of [bloom](https://en.wikipedia.org/wiki/Bloom_(shader_effect) "Wikipedia article on Bloom.") in the camera viewport.
 
 ---
 * *8K output is an experimental feature.  This is not reccomended for most users because it is extremely taxing on the computer, and will cause lag/stuttering on most systems.*

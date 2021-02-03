@@ -7,8 +7,12 @@
 The toolbar displays the project name, as well as several functions for the project.
 Many of these options are self explanatory.
 
-`Scripting` is a feature coming in future releases, and `Refresh Project` reloads the database of objects and textures, allowing for importing new assets while the application is running.  This will cause the VR display to fade to black for a moment, allowing all the new assets to be loaded in without dropping frames.
+**A few notable options:**
 
+* `Refresh Project` reloads the database of objects and textures, allowing for importing new assets while the application is running.  This will cause the VR display to fade to black for a moment, allowing all the new assets to be loaded in without dropping frames.
+* `Reveal Project` opens a Windows Explorer window at the project directory.
+* `Scripting` is a feature coming in future releases.
+* After the scene is finished loading, there is also an option for camera smoothing.  This adds smoothing to the desktop view camera.  It has no affect in VR, but might affect performance.
 
 ## Navigating the Scene
 **To move around the scene, you have three options.**
@@ -38,7 +42,7 @@ To toggle scale mode (as indicated by the small `Transform` Gizmo on the right c
 
 *For a detailed overview of each menu, see section below.*
 
-* Properties -- This menu shoes either the scene hierarchy or any properties of the selected object.
+* Properties -- This menu shows either the scene hierarchy or any properties of the selected object.
 * Objects -- This menu displays a grid of available objects including standard assets and imported assets. Select an item to spawn it into the scene.
 * Lighting -- This menu has many functions to change the lighting of the scene (see below).
 *  Settings -- This menu has many functions relating to the opened project and Sceneforge as a whole (see below).
@@ -67,7 +71,7 @@ To spawn in an object, just point and click on one of the tiles.  The object wil
 ---
 
 ### Lighting Menu Panel ###
-This panel will display a list of all available skyboxes for the scene.  Select a skybox to assign it to the scene.  The ambient lighting of the scene will also change to reflect the skybox.
+This panel will display a list of all available skyboxes for the scene.  Select a skybox to assign it to the scene.  The ambient lighting of the scene may also change to reflect the skybox.
 
 At the top of the panel, the add light button will spawn a light in front of you.  
 The sun object above the panel can be grabbed and rotated to change the position of the sun/global directional light.

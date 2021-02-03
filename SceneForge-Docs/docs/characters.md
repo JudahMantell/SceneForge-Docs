@@ -1,7 +1,7 @@
 
-SceneForge Studio accepts models with a linked skeleton/armature.  This allows the software to use Inverse Kinematics (IK) for easy posing of rigged characters.
+SceneForge Studio accepts models with a linked skeleton/armature.  This allows the software to use [Inverse Kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#:~:text=In%20computer%20animation%20and%20robotics,the%20start%20of%20the%20chain. "Wikipedia article on Inverse Kinematics") (IK) for easy posing of rigged characters.
 
-When configuring rigged characters in the scene, there are two options:
+**When configuring rigged characters in the scene, there are two options:**
 
 ### Humanoid Rigs ###
 Humanoid character rigs are read by finding bones named one of the following: "head", "foot", "hand".

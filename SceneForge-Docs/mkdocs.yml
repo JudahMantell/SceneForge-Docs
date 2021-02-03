@@ -9,8 +9,10 @@ nav:
     - The Camera: cameras.md
     - Rigged Characters: characters.md
     - Storyboards: storyboards.md
+    - Known Issues: issues.md
 theme:
   name: 'material'
+  #custom_dir: overrides
   palette:
     scheme: 'slate'
     primary: deep purple
