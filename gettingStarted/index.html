@@ -314,6 +314,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#download-the-sceneforge-alpha" class="md-nav__link">
+    Download the SceneForge Alpha
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-project" class="md-nav__link">
     Creating a Project
   </a>
@@ -431,6 +438,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#download-the-sceneforge-alpha" class="md-nav__link">
+    Download the SceneForge Alpha
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-project" class="md-nav__link">
     Creating a Project
   </a>
@@ -465,6 +479,8 @@
                 
                 
                 <h1 id="getting-started">Getting Started</h1>
+<h2 id="download-the-sceneforge-alpha">Download the SceneForge Alpha</h2>
+<p>To download the SceneForge Alpha, download the project from the Github repository.  This <code>.zip</code> file will include the <code>SceneForge Studio.EXE</code> application, as well as an example project to mess around with.  At the moment, the application is completely portable, so the <code>.zip</code> file can be extracted anywhere.</p>
 <h2 id="creating-a-project">Creating a Project</h2>
 <p>To create a project, select the <code>New Project</code> option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
 <img alt="Screenshot" src="../img/mainMenu.png" />
@@ -495,11 +511,14 @@ Next, choose a name and for the project (below) using the VR keyboard now enable
 <p>To import custom art assets, simply drag the file(s) to their respective folders in the project directory.</p>
 <p>SceneForge Studio accepts different file types for different types of assets:</p>
 <ul>
-<li>For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.<br />
-It will also read .zip archives containing those formats and their textures.</li>
+<li>For 3D Models, Sceneforge uses the glTF format.  It accepts .glB files and .glTF files.<br />
+It will also read .zip archives containing those formats and their textures.*</li>
 <li>For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.</li>
 <li>For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the <em>equirectangular</em> 360 Degree/Panorama image format.</li>
 </ul>
+<hr />
+<p>*At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. 
+To check if a glTG file contains unsupported LINES/POINTS meshes, you can use the <code>inspect</code> command in the <code>gltf-transform</code> command line tools. </p>
                 
               
               
