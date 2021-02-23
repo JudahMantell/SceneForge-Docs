@@ -13,3 +13,4 @@ You can visit our public Trello board [here](https://trello.com/invite/b/ECzOgfj
 * The overlays panel in the Storyboard Editor is empty at the moment.  Options here will be available in a future release.
 * Deleting Storyboard frames doesn't work at the moment.
 * When exporting a storyboard, highlighted frames still appear highlighted in the exported image.
+

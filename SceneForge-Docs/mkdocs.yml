@@ -1,6 +1,6 @@
 site_name: SceneForge Studio
-# repo_url: https://github.com/MidnightCoffeeInc/SceneForge-Studio-Example
-# repo_name: Download Test Project
+repo_url: https://github.com/MidnightCoffeeInc/SceneForge-Alpha-Test
+repo_name: Download the Alpha
 edit_uri: ""
 nav:
     - Home: index.md
@@ -21,7 +21,10 @@ theme:
     code: Roboto Mono
   features:
     - navigation.tabs
-
+  logo:
+    img/SceneforgeLogo.png
+  favicon:
+    img/SceneforgeLogo.png
 
   icon:
     repo: fontawesome/brands/github

@@ -1,6 +1,8 @@
 
 # Getting Started
 
+## Download the SceneForge Alpha
+To download the SceneForge Alpha, download the project from the Github repository.  This `.zip` file will include the `SceneForge Studio.EXE` application, as well as an example project to mess around with.  At the moment, the application is completely portable, so the `.zip` file can be extracted anywhere.
 
 ## Creating a Project
 To create a project, select the `New Project` option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
@@ -40,7 +42,10 @@ To import custom art assets, simply drag the file(s) to their respective folders
 
 SceneForge Studio accepts different file types for different types of assets:
 
-* For 3D Models, Sceneforge uses the GLTF format.  It accepts .glb files and .gltf files.  
-It will also read .zip archives containing those formats and their textures.
+* For 3D Models, Sceneforge uses the glTF format.  It accepts .glB files and .glTF files.  
+It will also read .zip archives containing those formats and their textures.*
 * For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.
 * For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the *equirectangular* 360 Degree/Panorama image format.
+- - -
+*At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. 
+To check if a glTF file contains unsupported LINES/POINTS meshes, you can use the `inspect` command in the `gltf-transform` command line tools. 
