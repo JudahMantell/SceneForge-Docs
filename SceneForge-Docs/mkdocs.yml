@@ -10,6 +10,7 @@ nav:
     - Rigged Characters: characters.md
     - Storyboards: storyboards.md
     - Known Issues: issues.md
+    - Changelog: changelogPage.md
 theme:
   name: 'material'
   #custom_dir: overrides
