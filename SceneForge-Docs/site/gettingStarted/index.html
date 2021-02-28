@@ -357,6 +357,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-note-on-application-performance" class="md-nav__link">
+    A Note on Application Performance
+  </a>
+  
+    <nav class="md-nav" aria-label="A Note on Application Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-note-on-lighting" class="md-nav__link">
+    A Note on Lighting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-project" class="md-nav__link">
     Creating a Project
   </a>
@@ -374,6 +394,19 @@
   <a href="#importing-custom-assets" class="md-nav__link">
     Importing Custom Assets
   </a>
+  
+    <nav class="md-nav" aria-label="Importing Custom Assets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#more-about-3d-models" class="md-nav__link">
+    More About 3D Models
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -494,6 +527,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-note-on-application-performance" class="md-nav__link">
+    A Note on Application Performance
+  </a>
+  
+    <nav class="md-nav" aria-label="A Note on Application Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-note-on-lighting" class="md-nav__link">
+    A Note on Lighting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-project" class="md-nav__link">
     Creating a Project
   </a>
@@ -512,6 +565,19 @@
     Importing Custom Assets
   </a>
   
+    <nav class="md-nav" aria-label="Importing Custom Assets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#more-about-3d-models" class="md-nav__link">
+    More About 3D Models
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -529,7 +595,11 @@
                 
                 <h1 id="getting-started">Getting Started</h1>
 <h2 id="download-the-sceneforge-alpha">Download the SceneForge Alpha</h2>
-<p>To download the SceneForge Alpha, download the project from the Github repository.  This <code>.zip</code> file will include the <code>SceneForge Studio.EXE</code> application, as well as an example project to mess around with.  At the moment, the application is completely portable, so the <code>.zip</code> file can be extracted anywhere.</p>
+<p>Download the application <code>.exe</code> under Releases. You can also download the <code>Source Code.zip</code> which contains a simple example project. The <code>Source Code.zip</code> file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.</p>
+<h2 id="a-note-on-application-performance">A Note on Application Performance</h2>
+<p>Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects in the scene, the higher the risk of frames dropping.  Same goes for lights.</p>
+<h3 id="a-note-on-lighting">A Note on Lighting</h3>
+<p>All lighting in SceneForge is realtime.  There are no baked lights in the scene, nor is there the ability to do so at runtime.  This ensures that all lights are easily modifiable, an important part of realtime virtual production.</p>
 <h2 id="creating-a-project">Creating a Project</h2>
 <p>To create a project, select the <code>New Project</code> option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
 <img alt="Screenshot" src="../img/mainMenu.png" />
@@ -566,8 +636,13 @@ It will also read .zip archives containing those formats and their textures.*</l
 <li>For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the <em>equirectangular</em> 360 Degree/Panorama image format.</li>
 </ul>
 <hr />
-<p>*At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. 
-To check if a glTF file contains unsupported LINES/POINTS meshes, you can use the <code>inspect</code> command in the <code>gltf-transform</code> command line tools. </p>
+<h3 id="more-about-3d-models">More About 3D Models</h3>
+<ul>
+<li>At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. </li>
+<li>To check if a glTF file contains unsupported LINES/POINTS meshes, you can use the <code>inspect</code> command in the <code>gltf-transform</code> command line tools. </li>
+<li>Any 3D model (.FBX, .OBJ, etc) can be converted into .glTF via online tools <a href="https://blackthread.io/gltf-converter/" target="_blank">like this one.</a></li>
+<li>glTF models can also be downloaded from a variety of sources, such as <a href="http://sketchfab.com/" target="_blank">SketchFab.</a></li>
+</ul>
                 
               
               

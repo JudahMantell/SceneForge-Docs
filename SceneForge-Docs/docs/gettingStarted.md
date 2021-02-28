@@ -1,8 +1,14 @@
 
 # Getting Started
 
+
 ## Download the SceneForge Alpha
-To download the SceneForge Alpha, download the project from the Github repository.  This `.zip` file will include the `SceneForge Studio.EXE` application, as well as an example project to mess around with.  At the moment, the application is completely portable, so the `.zip` file can be extracted anywhere.
+Download the application `.exe` under Releases. You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
+
+## A Note on Application Performance
+Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects in the scene, the higher the risk of frames dropping.  Same goes for lights.
+### A Note on Lighting
+All lighting in SceneForge is realtime.  There are no baked lights in the scene, nor is there the ability to do so at runtime.  This ensures that all lights are easily modifiable, an important part of realtime virtual production.
 
 ## Creating a Project
 To create a project, select the `New Project` option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
@@ -47,5 +53,9 @@ It will also read .zip archives containing those formats and their textures.*
 * For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.
 * For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the *equirectangular* 360 Degree/Panorama image format.
 - - -
-*At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. 
-To check if a glTF file contains unsupported LINES/POINTS meshes, you can use the `inspect` command in the `gltf-transform` command line tools. 
+### More About 3D Models
+* At the moment, the glTF model importer only supports triangle meshes (i.e. mesh type = TRIANGLE), whereas the glTF format allows lines (i.e. mesh type = LINES) and point clouds (i.e. mesh type = POINTS).  In the future, we hope to support those as well. 
+* To check if a glTF file contains unsupported LINES/POINTS meshes, you can use the `inspect` command in the `gltf-transform` command line tools. 
+* Any 3D model (.FBX, .OBJ, etc) can be converted into .glTF via online tools [like this one.](https://blackthread.io/gltf-converter/){:target="_blank"}
+* glTF models can also be downloaded from a variety of sources, such as [SketchFab.](http://sketchfab.com/){:target="_blank"}
+
