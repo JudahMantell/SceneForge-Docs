@@ -9,8 +9,9 @@ nav:
     - The Camera: cameras.md
     - Rigged Characters: characters.md
     - Storyboards: storyboards.md
-    - Known Issues: issues.md
     - Changelog: changelogPage.md
+    - Known Issues: issues.md
+
 
 theme:
   name: 'material'
