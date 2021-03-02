@@ -115,6 +115,7 @@ TABLE OF CONTENT
 2.0 FOUNDATION
 --------------------------------------------------------------*/
 
+
 html {
   box-sizing: border-box;
 }
@@ -217,6 +218,17 @@ svg {
 5.0 LAYOUT
 --------------------------------------------------------------*/
 
+.announcementBanner {
+  background-color:var(--primaryPurple);
+  height: 30px;
+  /* border: thin solid #eddd00; */
+}
+
+.announcementText{
+  padding-top:5px;text-align:center;
+  color:white;
+}
+
 .ui-layout-container {
   padding-left: var(--ui-layout-container);
   padding-right: var(--ui-layout-container);
@@ -294,8 +306,8 @@ svg {
   padding: 2.25rem 1.5rem;
   text-align: center;
   width: 100%;
-  -webkit-box-shadow: 1px 11px 34px 4px rgba(0,0,0,0.51); 
-box-shadow: 1px 11px 34px 4px rgba(0,0,0,0.51)
+  -webkit-box-shadow: 1px 11px 34px 4px rgba(0, 0, 0, 0.51);
+  box-shadow: 1px 11px 34px 4px rgba(0, 0, 0, 0.51);
 }
 
 .ui-component-card--image {
@@ -342,8 +354,8 @@ box-shadow: 1px 11px 34px 4px rgba(0,0,0,0.51)
   margin-top: var(--ui-gap-hero);
   border: 5px solid #7e56c2;
   border-radius: var(--ui-radius-card);
-  -webkit-box-shadow: -4px 33px 50px 17px rgba(0,0,0,0.39); 
-box-shadow: -4px 33px 50px 17px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -4px 33px 50px 17px rgba(0, 0, 0, 0.39);
+  box-shadow: -4px 33px 50px 17px rgba(0, 0, 0, 0.39);
 }
 
 /*--------------------------------------------------------------
