@@ -12,7 +12,8 @@ Many of these options are self explanatory.
 * `Refresh Project` reloads the database of objects and textures, allowing for importing new assets while the application is running.  This will cause the VR display to fade to black for a moment, allowing all the new assets to be loaded in without dropping frames.
 * `Reveal Project` opens a Windows Explorer window at the project directory.
 * `Scripting` is a feature coming in future releases.
-* After the scene is finished loading, there is also an option for camera smoothing.  This adds smoothing to the desktop view camera.  It has no affect in VR, but might affect performance.
+* After the scene is finished loading, there is also an option for `Camera Smoothing.  This adds smoothing to the desktop view camera.  It has no affect in VR, but might affect performance.
+* When the camera is activated, there is an option for `Mobile Cam`.  This enables the mobile app functionality that isn't available just yet.
 
 ## Navigating the Scene
 **To move around the scene, you have three options.**
