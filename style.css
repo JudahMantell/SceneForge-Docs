@@ -30,7 +30,6 @@ TABLE OF CONTENT
 --------------------------------------------------------------*/
 
 :root {
-
   /*------------------------------------------------------------
   |
   | 1.1 COLOR
@@ -50,16 +49,16 @@ TABLE OF CONTENT
   --darkSlateGrey: #2f303e;
   --primaryPurple: #7e56c2;
   /* BACKGROUND COLOR */
-  
-  --ui-color-background-primary  : var(--darkSlateGrey);
+
+  --ui-color-background-primary: var(--darkSlateGrey);
   --ui-color-background-secondary: var(--primaryPurple);
 
   /* TYPOGRAPHY COLOR */
 
   --ui-color-typography-heading: var(--ui-color-n-000);
-  --ui-color-typography-body   : var(--ui-color-n-100);
-  --ui-color-typography-note   : var(--ui-color-n-300);
-  --ui-color-typography-button : var(--ui-color-n-000);
+  --ui-color-typography-body: var(--ui-color-n-100);
+  --ui-color-typography-note: var(--ui-color-n-300);
+  --ui-color-typography-button: var(--ui-color-n-000);
 
   /*------------------------------------------------------------
   |
@@ -74,54 +73,57 @@ TABLE OF CONTENT
   --ui-typography-h1: 1.9375rem;
   --ui-typography-h2: 1.5625rem;
   --ui-typography-h4: 1rem;
-  --ui-typography-p : 1rem;
-  --ui-typography-s : .8125rem;
+  --ui-typography-p: 1rem;
+  --ui-typography-s: 0.8125rem;
 
   /* LEADING */
 
   --ui-typography-h1-leading: 1.2;
   --ui-typography-h2-leading: 1.2;
   --ui-typography-h4-leading: 1.25;
-  --ui-typography-p-leading : 1.5;
+  --ui-typography-p-leading: 1.5;
 
   /* MARGIN */
 
-  --ui-typography-margin-heading: .75rem;
-  --ui-typography-margin-body   : 1.125rem;
+  --ui-typography-margin-heading: 0.75rem;
+  --ui-typography-margin-body: 1.125rem;
 
   /*------------------------------------------------------------
   |
   | 1.3 LAYOUT
   |
   ------------------------------------------------------------*/
-  
+
   --ui-layout-container: 1.25rem;
-  --ui-layout-grid     : 3.625rem;
-  --ui-layout-gutter   : 1rem;
+  --ui-layout-grid: 3.625rem;
+  --ui-layout-gutter: 1rem;
 
   /* GAP */
 
-  --ui-gap-cta    : .75rem;
-  --ui-gap-hero   : 2rem;
+  --ui-gap-cta: 0.75rem;
+  --ui-gap-hero: 2rem;
   --ui-gap-feature: 2rem;
-  --ui-gap-card   : 1.25rem;
+  --ui-gap-card: 1.25rem;
 
   /* BORDER RADIUS */
-  
-  --ui-radius-button: 5rem;
-  --ui-radius-card  : .5rem;
 
+  --ui-radius-button: 5rem;
+  --ui-radius-card: 0.5rem;
 }
 
 /*--------------------------------------------------------------
 2.0 FOUNDATION
 --------------------------------------------------------------*/
 
-html { box-sizing: border-box; }
+html {
+  box-sizing: border-box;
+}
 
 *,
 *:before,
-*:after { box-sizing: inherit; }
+*:after {
+  box-sizing: inherit;
+}
 
 body {
   background-color: var(--ui-color-background-primary);
@@ -148,14 +150,20 @@ a {
 h1,
 h2,
 h4,
-p { margin-top: 0; }
+p {
+  margin-top: 0;
+}
 
 h1,
 h2,
-h4 { color: var(--ui-color-typography-heading); }
+h4 {
+  color: var(--ui-color-typography-heading);
+}
 
 h1,
-h2 { margin-bottom: var(--ui-typography-margin-heading); }
+h2 {
+  margin-bottom: var(--ui-typography-margin-heading);
+}
 
 h1 {
   font-size: var(--ui-typography-h1);
@@ -172,13 +180,21 @@ h4 {
   line-height: var(--ui-typography-h4-leading);
 }
 
-p { margin-bottom: var(--ui-typography-margin-body); }
+p {
+  margin-bottom: var(--ui-typography-margin-body);
+}
 
-p:last-child { margin-bottom: 0; }
+p:last-child {
+  margin-bottom: 0;
+}
 
-strong { font-weight: 700; }
+strong {
+  font-weight: 700;
+}
 
-small { font-size: var(--ui-typography-s); }
+small {
+  font-size: var(--ui-typography-s);
+}
 
 .ui-text-note {
   color: var(--ui-color-typography-note);
@@ -212,9 +228,13 @@ svg {
   justify-content: center;
 }
 
-.ui-layout-flex { display: flex; }
+.ui-layout-flex {
+  display: flex;
+}
 
-.ui-layout-grid { display: grid; }
+.ui-layout-grid {
+  display: grid;
+}
 
 /*--------------------------------------------------------------
 6.0 COMPONENT
@@ -238,7 +258,7 @@ svg {
 --------------------------------------------------------------*/
 
 .ui-component-button {
-  border: .0625rem solid var(--ui-color-brand);
+  border: 0.0625rem solid var(--ui-color-brand);
   border-radius: var(--ui-radius-button);
   display: block;
   font-weight: 700;
@@ -252,13 +272,13 @@ svg {
 }
 
 .ui-component-button-normal {
-  padding: .75rem 1rem .875rem;
+  padding: 0.75rem 1rem 0.875rem;
   width: fit-content;
 }
 
 .ui-component-button-small {
   font-size: var(--ui-typography-s);
-  padding: .5rem .75rem .5625rem;
+  padding: 0.5rem 0.75rem 0.5625rem;
 }
 
 /*--------------------------------------------------------------
@@ -274,11 +294,17 @@ svg {
   padding: 2.25rem 1.5rem;
   text-align: center;
   width: 100%;
+  -webkit-box-shadow: 1px 11px 34px 4px rgba(0,0,0,0.51); 
+box-shadow: 1px 11px 34px 4px rgba(0,0,0,0.51)
 }
 
-.ui-component-card--image { margin-bottom: 2.25rem; }
+.ui-component-card--image {
+  margin-bottom: 2.25rem;
+}
 
-.ui-component-card--title { margin-bottom: .5rem; }
+.ui-component-card--title {
+  margin-bottom: 0.5rem;
+}
 
 /*--------------------------------------------------------------
 7.0 SECTION
@@ -296,7 +322,9 @@ svg {
   /* background-color: var(--primaryPurple); */
 }
 
-.ui-section-header__layout { justify-content: space-between; }
+.ui-section-header__layout {
+  justify-content: space-between;
+}
 
 /*--------------------------------------------------------------
 |
@@ -310,9 +338,13 @@ svg {
   text-align: center;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); 
-border:5px solid #7e56c2;
-border-radius: var(--ui-radius-card);}
+.ui-section-hero--image {
+  margin-top: var(--ui-gap-hero);
+  border: 5px solid #7e56c2;
+  border-radius: var(--ui-radius-card);
+  -webkit-box-shadow: -4px 33px 50px 17px rgba(0,0,0,0.39); 
+box-shadow: -4px 33px 50px 17px rgba(0,0,0,0.39);
+}
 
 /*--------------------------------------------------------------
 |
@@ -378,13 +410,11 @@ border-radius: var(--ui-radius-card);}
 --------------------------------------------------------------*/
 
 @media screen and (min-width: 48rem) {
-
   /*------------------------------------------------------------
   VARIABLE
   ------------------------------------------------------------*/
-  
-  :root {
 
+  :root {
     /*----------------------------------------------------------
     |
     | TYPOGRAPHY
@@ -396,8 +426,8 @@ border-radius: var(--ui-radius-card);}
     --ui-typography-h1: 2.1875rem;
     --ui-typography-h2: 1.75rem;
     --ui-typography-h4: 1.125rem;
-    --ui-typography-p : 1.125rem;
-    --ui-typography-s : .875rem;
+    --ui-typography-p: 1.125rem;
+    --ui-typography-s: 0.875rem;
 
     /* MARGIN */
 
@@ -410,14 +440,13 @@ border-radius: var(--ui-radius-card);}
     ----------------------------------------------------------*/
 
     --ui-layout-container: 4.25rem;
-    --ui-layout-gutter   : 1.5rem;
+    --ui-layout-gutter: 1.5rem;
 
     /* GAP */
 
-    --ui-gap-hero   : 3rem;
+    --ui-gap-hero: 3rem;
     --ui-gap-feature: 3rem;
-    --ui-gap-card   : 1.5rem;
-
+    --ui-gap-card: 1.5rem;
   }
 
   /*------------------------------------------------------------
@@ -442,8 +471,7 @@ border-radius: var(--ui-radius-card);}
   }
 
   .ui-layout-column-6 {
-    width: calc((var(--ui-layout-grid) * 6) +
-           (var(--ui-layout-gutter) * 5));
+    width: calc((var(--ui-layout-grid) * 6) + (var(--ui-layout-gutter) * 5));
   }
 
   /*------------------------------------------------------------
@@ -493,7 +521,9 @@ border-radius: var(--ui-radius-card);}
   |
   ------------------------------------------------------------*/
 
-  .ui-section-close--logo { width: 4rem; }
+  .ui-section-close--logo {
+    width: 4rem;
+  }
 
   /*------------------------------------------------------------
   |
@@ -505,7 +535,6 @@ border-radius: var(--ui-radius-card);}
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
-  
 }
 
 /*--------------------------------------------------------------
@@ -515,13 +544,11 @@ border-radius: var(--ui-radius-card);}
 --------------------------------------------------------------*/
 
 @media screen and (min-width: 64rem) {
-
   /*------------------------------------------------------------
   VARIABLE
   ------------------------------------------------------------*/
 
   :root {
-
     /*----------------------------------------------------------
     |
     | LAYOUT
@@ -529,14 +556,15 @@ border-radius: var(--ui-radius-card);}
     ----------------------------------------------------------*/
 
     --ui-layout-container: 0;
-  
   }
 
   /*------------------------------------------------------------
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  a { transition: all 250ms ease; }
+  a {
+    transition: all 250ms ease;
+  }
 
   a:not(.ui-component-button):hover {
     color: var(--ui-color-typography-body);
@@ -545,13 +573,18 @@ border-radius: var(--ui-radius-card);}
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
-  
-  .ui-layout-container { width: 60rem; }
 
-  .ui-layout-grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .ui-layout-container {
+    width: 60rem;
+  }
 
-  .ui-layout-grid-3 div:nth-of-type(3) { position: static; }
+  .ui-layout-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  .ui-layout-grid-3 div:nth-of-type(3) {
+    position: static;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -561,13 +594,11 @@ border-radius: var(--ui-radius-card);}
 --------------------------------------------------------------*/
 
 @media screen and (min-width: 75rem) {
-
   /*------------------------------------------------------------
   VARIABLE
   ------------------------------------------------------------*/
 
   :root {
-
     /*----------------------------------------------------------
     |
     | TYPOGRAPHY
@@ -583,7 +614,7 @@ border-radius: var(--ui-radius-card);}
     /* MARGIN */
 
     --ui-typography-margin-heading: 1rem;
-    --ui-typography-margin-body   : 1.75rem;
+    --ui-typography-margin-body: 1.75rem;
 
     /*----------------------------------------------------------
     |
@@ -591,28 +622,31 @@ border-radius: var(--ui-radius-card);}
     |
     ----------------------------------------------------------*/
 
-    --ui-layout-grid  : 4rem;
+    --ui-layout-grid: 4rem;
     --ui-layout-gutter: 2rem;
 
     /* GAP */
-    
-    --ui-gap-hero   : 4rem;
+
+    --ui-gap-hero: 4rem;
     --ui-gap-feature: 4rem;
-    --ui-gap-card   : 2rem;
-    
+    --ui-gap-card: 2rem;
   }
 
   /*------------------------------------------------------------
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro { font-size: var(--ui-typography-h4); }
+  .ui-text-intro {
+    font-size: var(--ui-typography-h4);
+  }
 
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
-  
-  .ui-layout-container { width: 70rem; }
+
+  .ui-layout-container {
+    width: 70rem;
+  }
 
   /*------------------------------------------------------------
   COMPONENT
@@ -630,8 +664,8 @@ border-radius: var(--ui-radius-card);}
   }
 
   .ui-component-button-small {
-    padding-bottom: .6875rem;
-    padding-top: .625rem;
+    padding-bottom: 0.6875rem;
+    padding-top: 0.625rem;
   }
 
   /*------------------------------------------------------------
@@ -681,7 +715,7 @@ border-radius: var(--ui-radius-card);}
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
-  
+
   /*------------------------------------------------------------
   |
   | FOOTER
@@ -692,5 +726,4 @@ border-radius: var(--ui-radius-card);}
     padding-bottom: 3rem;
     padding-top: 3rem;
   }
-
 }
