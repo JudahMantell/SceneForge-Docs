@@ -3,10 +3,10 @@
 
 
 ## Download the SceneForge Alpha
-Download the application `.exe` under Releases. You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
+Download the latest `.exe` [from the Github repo (under Releases)](https://github.com/MidnightCoffeeInc/SceneForge-Alpha-Test/releases) You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
 
 ## A Note on Application Performance
-Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects in the scene, the higher the risk of frames dropping.  Same goes for lights.
+Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects/polygons/tris in the scene, the higher the risk of frames dropping.  Same goes for lights.
 ### A Note on Lighting
 All lighting in SceneForge is realtime.  There are no baked lights in the scene, nor is there the ability to do so at runtime.  This ensures that all lights are easily modifiable, an important part of realtime virtual production.
 
