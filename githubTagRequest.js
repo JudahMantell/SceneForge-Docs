@@ -21,7 +21,7 @@ function requestUserRepos(){
         console.log(data);
         
         // Loop over each object in data array
-        console.log(data.name);
+        console.log(data.tags_url);
 
     }
     
