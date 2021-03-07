@@ -5,10 +5,18 @@
 ## Download the SceneForge Alpha
 Download the latest `.exe` [from the Github repo (under Releases)](https://github.com/MidnightCoffeeInc/SceneForge-Alpha-Test/releases) You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
 
+**Please Note:** Sometimes Windows' Threat Detector will falsely label the `.exe` as a threat.  This is simply because of the way the application is zipped into a single executable, rather than a folder of many files.  If this does happen, click the Defender notification and "Allow" Windows to recognize the file.  Additionally, because of the "Self-Extracting" (SFX) nature of the application, it might take a second to load after being double clicked.  This is normal and will be resolved in future releases. 
+
+**Please note** that the downloadable application expires after ten days to limit sharing. If you know anyone who would be interested in testing, or would like to continue using SceneForge, please reach out at <MidnightCoffeeInc@Gmail.com>.
+
 ## A Note on Application Performance
 Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects/polygons/tris in the scene, the higher the risk of frames dropping.  Same goes for lights.
 ### A Note on Lighting
 All lighting in SceneForge is realtime.  There are no baked lights in the scene, nor is there the ability to do so at runtime.  This ensures that all lights are easily modifiable, an important part of realtime virtual production.
+
+---
+## Overview Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H1BXDPQNIEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Creating a Project
 To create a project, select the `New Project` option in the main menu (pictured below).  You can use the pointer on your right controller to point, and the right trigger to click.
@@ -49,7 +57,7 @@ To import custom art assets, simply drag the file(s) to their respective folders
 SceneForge Studio accepts different file types for different types of assets:
 
 * For 3D Models, Sceneforge uses the glTF format.  It accepts .glB files and .glTF files.  
-It will also read .zip archives containing those formats and their textures.*
+It will also read .zip archives containing those formats and their textures. ***(Recommended)***
 * For textures, at the moment SceneForge accepts only .png files.  This ensures compatability across all uses of images in a project, including skyboxes and backdrop textures.
 * For Skyboxes, SceneForge accepts only .png files.  In order for the scene to display skies correctly, the image should be in the *equirectangular* 360 Degree/Panorama image format.
 - - -

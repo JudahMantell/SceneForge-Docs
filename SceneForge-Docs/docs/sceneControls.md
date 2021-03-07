@@ -61,6 +61,10 @@ In the example below, there will either be a list of objects in the scene (left;
 
 ![Screenshot](img\hierarchy.PNG)
 ![Screenshot](img\lightProperties.PNG){: width="382" }
+
+#### Backdrop Selector Panel
+If you select the backdrop with the pointer, it will highlight and the properties panel will change to a backdrop selector panel.  Here you can choose from a grid of textures to apply to the backdrop.  These textures are taken from the `Textures` folder in your project.  See Getting Started page for more info about custom assets. 
+
 ---
 ### Object Spawn Menu ###
 This panel will display a list of available objects to spawn into the scene.  This list includes custom imported objects, and objects that are included with the software.  In the future there will also be options to spawn in effects (weather, etc).
