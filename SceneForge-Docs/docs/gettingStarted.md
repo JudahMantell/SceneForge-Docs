@@ -3,12 +3,10 @@
 
 
 ## Download the SceneForge Alpha
-Download the latest `.exe` [from the Github repo (under Releases)](https://github.com/MidnightCoffeeInc/SceneForge-Alpha-Test/releases) You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
+Download the latest package [from the Github repo (under Releases)](https://github.com/MidnightCoffeeInc/SceneForge-Alpha-Test/releases).  This will be a `.zip` archive.  To run SceneForge, run the enclosed `.exe` file.  Don't delete any other files in that directory.
+
+You can also download the `Source Code.zip` which contains a simple example project. The `Source Code.zip` file does not contain the source code to the application--only the example project, which includes a few 3D Models and textures.
 **Steam/SteamVR must be running when opening the application.**
-
-**Please Note:** Sometimes Windows' Threat Detector will falsely label the `.exe` as a threat.  This is simply because of the way the application is zipped into a single executable, rather than a folder of many files.  If this does happen, click the Defender notification and "Allow" Windows to recognize the file.  Additionally, because of the "Self-Extracting" (SFX) nature of the application, it might take a second to load after being double clicked.  This is normal and will be resolved in future releases. 
-
-**Please note** that the downloadable application expires after ten days to limit sharing. If you know anyone who would be interested in testing, or would like to continue using SceneForge, please reach out at <MidnightCoffeeInc@Gmail.com>.
 
 ## A Note on Application Performance
 Because SceneForge is a creative application, performance (and subsequently framerate) is dependant on what you build.  The more objects/polygons/tris in the scene, the higher the risk of frames dropping.  Same goes for lights.

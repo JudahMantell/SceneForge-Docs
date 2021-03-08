@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [v0.1.5-alpha] - 2021-03-7
+
+**Note:** Unzip SceneForge archive then run enclosed .exe file.
+
+* Removed ten day test period limitation. Go crazy, have fun. Just please don't share the application without developer permission.
+midnightCoffeeInc@gmail.com
+
+
 ## [v0.1.4-alpha] - 2021-03-2
 
 * Fixed issue where exported storyboard shows selected frame.
-
 
 ## [v0.1.3-alpha] - 2021-02-26
 
