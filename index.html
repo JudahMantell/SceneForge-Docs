@@ -52,36 +52,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="dist/lity.min.css" rel="stylesheet" />
     <script src="dist/lity.min.js"></script>
-    <script
-      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
-      async=""
-    ></script>
-    <script>
-      window.OneSignal = window.OneSignal || [];
-      OneSignal.push(function () {
-        OneSignal.init({
-          appId: "cb91cdaa-03ff-48d1-92cc-fb6b485e815a",
-          promptOptions: {
-  customlink: {
-    enabled: true, /* Required to use the Custom Link */
-    style: "button", /* Has value of 'button' or 'link' */
-    size: "medium", /* One of 'small', 'medium', or 'large' */
-    color: {
-      button: '#E12D30', /* Color of the button background if style = "button" */
-      text: '#FFFFFF', /* Color of the prompt's text */
-    },
-    text: {
-      subscribe: "Subscribe to push notifications", /* Prompt's text when not subscribed */
-      unsubscribe: "Unsubscribe from push notifications", /* Prompt's text when subscribed */
-      explanation: "Get updates from all sorts of things that matter to you", /* Optional text appearing before the prompt button */
-    },
-    unsubscribeEnabled: true, /* Controls whether the prompt is visible after subscription */
-  }
-}
-        });
-      });
-      
-    </script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "cb91cdaa-03ff-48d1-92cc-fb6b485e815a",
+    });
+  });
+</script>
     <script src="OneSignalSDKUpdaterWorker.js"></script>
     <script src="OneSignalSDKWorker.js"></script>
     <script src="githubTagRequest.js"></script>
@@ -155,9 +134,9 @@
           </a>
         </div>
       </section>
+      <div class="onesignal-customlink-container"></div>
       <section class="ui-section-feature">
         <div class="ui-layout-container">
-          <div class="onesignal-customlink-container"></div>
           <div id="Benefits"></div>
           <h2>What can it do?</h2>
           <p class="ui-text-intro">
