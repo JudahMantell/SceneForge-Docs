@@ -1,439 +1,496 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <!-- META -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXDV1JHT30"></script>
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-SXDV1JHT30");
-  </script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="uisual" content="Made with Uisual (uisual.com)" />
-  <meta name="author" content="#" />
-  <meta name="description" content="#" />
-  <meta name="referrer" content="unsafe-url" />
-  <meta name="robots" content="index, follow" />
-  <!-- SPEED -->
-  <link rel="preconnect" href="https://res.cloudinary.com" />
-  <link rel="dns-prefetch" href="https://res.cloudinary.com" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-  <!-- LINK -->
-  <link rel="me" href="#" />
-  <link rel="canonical" href="#" />
-  <link rel="icon" type="image/png" href="homeImages/SceneforgeLogo.png" sizes="48x48" />
-  <!-- PERFORMANCE -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
-  <link rel="preload" as="style" href="style.css" />
-  <link rel="stylesheet" href="style.css" />
-  <!-- TITLE -->
-  <title>SceneForge Studio - All-In-One Virtual Production</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href="dist/lity.min.css" rel="stylesheet" />
-  <script src="dist/lity.min.js"></script>
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-  <script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function () {
-      OneSignal.init({
-        appId: "cb91cdaa-03ff-48d1-92cc-fb6b485e815a",
-      });
-    });
-  </script>
-  <script src="OneSignalSDKUpdaterWorker.js"></script>
-  <script src="OneSignalSDKWorker.js"></script>
-  <script src="githubTagRequest.js"></script>
-</head>
-
-<body>
-  <!-- <div class= "announcementBanner">
-    </ul> 
-        <li class="announcementText">View the latest release here - v0.1.13-Alpha</li> 
-    </ul> 
-  </div> -->
-  <header role="banner" class="ui-section-header">
-    <div class="ui-layout-container">
-      <div class="ui-section-header__layout ui-layout-flex">
-        <!-- LOGO -->
-        <a href="#" role="link" aria-label="#">
-          <!-- <svg viewBox="0 0 18 18" height="18" width="18" role="img" aria-label="#">
-              <path fill="#353535" d="M0 0h4.5v9a4.5 4.5 0 109 0V6H18v3A9 9 0 110 9V0zm18 4.5V0h-4.5v4.5H18z"/>
-            </svg> -->
-          <img src="homeImages/SceneforgeLogo.png" width="60" height="60" />
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="img/SceneforgeLogo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.3">
+    
+    
+      
+        <title>SceneForge Studio</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.3b61ea93.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#7e56c2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open-Sans:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Open-Sans",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-sceneforge-studio" class="md-skip">
+          Skip to content
         </a>
-        <!-- MENU -->
-        <a href="#Benefits" style="color: white;">Benefits</a>
-        <!-- <a href="#Upcoming" style="color: white;">Upcoming Features</a> -->
-        <a href="gettingStarted/" style="color: white;">View the Docs</a>
-        <a href="#Signup" role="link" aria-label="#"
-          class="ui-component-button ui-component-button-small ui-component-button-primary">Access the Alpha</a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="SceneForge Studio" class="md-header-nav__button md-logo" aria-label="SceneForge Studio">
+      
+  <img src="img/SceneforgeLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            SceneForge Studio
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
       </div>
     </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
     </div>
-  </header>
-  <main role="main">
-    <section class="ui-section-hero">
-      <div class="ui-layout-container">
-        <!-- COPYWRITING -->
-        <div class="ui-layout-column-6 ui-layout-column-center">
-          <h1>Introducing SceneForge.</h1>
-          <p class="ui-text-intro">
-            The world's first all in one Virtual Production software, built
-            from the ground up for XR.
-          </p>
-          <!-- CTA -->
-          <div class="ui-component-cta ui-layout-flex">
-            <a href="#Signup" role="link" aria-label="#"
-              class="ui-component-button ui-component-button-normal ui-component-button-primary">Access the Alpha</a>
-            <p class="ui-text-note">
-              <small>For SteamVR-Ready Windows PCs.</small>
-            </p>
-            <p class="ui-text-note">
-              <small><a
-                  href="https://docs.google.com/presentation/d/1tgsCls9EyaHAw8Kae3xELRbEcR0g0u2tvi64QFS5vgo/edit#slide=id.p">Click
-                  Here for the SceneForge Pitch Deck.</a> </small>
-            </p>
-          </div>
-        </div>
-        <!-- IMAGE -->
-        <a href="https://www.youtube.com/embed/AmOswD2qZwM" data-lity>
-          <img src="homeImages/moonLandscape.png" loading="lazy" alt="#" class="ui-section-hero--image" />
-        </a>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
 
-      </div>
 
-    </section>
-    <section class="ui-section-feature">
-      <div class="ui-layout-container">
-        <div id="Benefits"></div>
-        <h2>What can it do?</h2>
-        <p class="ui-text-intro">
-          *In its current state. Check back often for new releases.
-        </p>
-        <!-- FEATURE -->
-        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-3">
-          <div class="ui-component-card ui-layout-column-4">
-            <img src="homeImages/Photo_2021_02_28_19.00.46.png" loading="lazy" alt="#" class="ui-component-card--image"
-              style="border: solid darkslategray 5px; border-radius: 5px" />
-            <h4 class="ui-component-card--title">
-              Get the perfect shot, every time.
-            </h4>
-            <p>
-              Build, explore, light, and rig your virtual set from all angles
-              with the power of Virtual Reality.
-            </p>
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <img src="homeImages/cameraGraphic.PNG" loading="lazy" alt="#" class="ui-component-card--image"
-              style="border: solid darkslategray 5px; border-radius: 5px" />
-            <h4 class="ui-component-card--title">
-              Bring reality into your scene.
-            </h4>
-            <p>
-              Use our companion mobile app to accurately track virtual cameras
-              in your physical space.
-            </p>
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <img src="homeImages/storyboardGraphic.PNG" loading="lazy" alt="#" class="ui-component-card--image"
-              style="border: solid darkslategray 5px; border-radius: 5px" />
-            <h4 class="ui-component-card--title">
-              The ultimate film previs tool.
-            </h4>
-            <p>
-              Take photos with 8K virtual cameras, then build production-ready
-              storyboards, all in-editor.
-            </p>
-          </div>
-        </div>
-        <br />
-        <br />
-        <div id="Upcoming"></div>
-        <br />
-        <h2>What's planned?</h2>
-        <p class="ui-text-intro">*In future major releases.</p>
-        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-3">
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">Full Body Motion Capture</h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">
-              Auto Chromakey with Mobile Camera
-            </h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">
-              Asymmetric Desktop-Mode Collaboration
-            </h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">
-              Runtime Screenplay-like Scripting
-            </h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">
-              8K Video Capture and Animation Tools
-            </h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
-          <div class="ui-component-card ui-layout-column-4">
-            <!-- <img
-                src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png"
-                loading="lazy"
-                alt="#"
-                class="ui-component-card--image"
-              /> -->
-            <h4 class="ui-component-card--title">
-              More Industry-Standard Virtual Production Tools
-            </h4>
-            <!-- <p>
-                Build, explore, light, and rig your virtual set from all angles
-                with the power of Virtual Reality.
-              </p> -->
-          </div>
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Home
+    </a>
+  </li>
 
-        </div>
+      
+        
+  
+  
 
-      </div>
-    </section>
 
-    <section class="ui-section-close">
-      <div class="ui-layout-container">
-        <div class="ui-layout-column-6 ui-layout-column-center">
-          <!--Zoho Campaigns Web-Optin Form's Header Code Starts Here-->
+  <li class="md-tabs__item">
+    <a href="gettingStarted/" class="md-tabs__link">
+      Getting Started
+    </a>
+  </li>
 
-          <script type="text/javascript" src="https://publ.maillist-manage.com/js/optin.min.js"
-            onload="setupSF('sf3z9bc54e7ed39921e6d9129683abb92ffd82c07e4608ea9e962912b10968c2dfdb','ZCFORMVIEW',false,'light',false,'0')"></script>
-          <script type="text/javascript">
-            function runOnFormSubmit_sf3z9bc54e7ed39921e6d9129683abb92ffd82c07e4608ea9e962912b10968c2dfdb(th) {
-              /*Before submit, if you want to trigger your event, "include your code here"*/
-            };
-          </script>
+      
+        
+  
+  
 
-          <style>
-            .quick_form_31_css * {
-              -webkit-box-sizing: border-box !important;
-              -moz-box-sizing: border-box !important;
-              box-sizing: border-box !important;
-              overflow-wrap: break-word
-            }
 
-            @media only screen and (max-width: 600px) {
-              .quick_form_31_css[name="SIGNUP_BODY"] {
-                width: 100% !important;
-                min-width: 100% !important;
-                margin: 0px auto !important;
-                padding: 0px !important
-              }
+  <li class="md-tabs__item">
+    <a href="sceneControls/" class="md-tabs__link">
+      Scene Controls
+    </a>
+  </li>
 
-              .SIGNUP_FLD {
-                width: 90% !important;
-                margin: 10px 5% !important;
-                padding: 0px !important
-              }
+      
+        
+  
+  
 
-              .SIGNUP_FLD input {
-                margin: 0 !important
-              }
-            }
-          </style>
 
-          <!--Zoho Campaigns Web-Optin Form's Header Code Ends Here-->
-          <!--Zoho Campaigns Web-Optin Form Starts Here-->
-          <div id="SignUp"></div>
-          <div id="sf3z9bc54e7ed39921e6d9129683abb92ffd82c07e4608ea9e962912b10968c2dfdb" data-type="signupform"
-            style="opacity: 1;">
-            <div id="customForm">
-              <div class="quick_form_31_css"
-                style="background-color: rgb(126, 86, 194);border-radius: 5px;   -webkit-box-shadow: 1px 11px 34px 4px rgba(0, 0, 0, 0.51);
-    box-shadow: 1px 11px 34px 4px rgba(0, 0, 0, 0.51); z-index: 2; font-family: Arial; border-color: rgb(235, 235, 235); overflow: hidden; border-width: 1px; border-style: none; width: 601px"
-                name="SIGNUP_BODY">
-                <div>
-                  <div
-                    style="font-weight: bold; color: rgb(255, 255, 255); text-align: left; padding: 15px 30px 5px; width: 100%; display: block; font-family: Arial; font-size: 18px"
-                    id="SIGNUP_HEADING">Sign up for the Alpha</div>
-                  <div style="position:relative;">
-                    <div id="Zc_SignupSuccess"
-                      style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all">
-                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tbody>
-                          <tr>
-                            <td width="10%">
-                              <img class="successicon"
-                                src="https://publ.maillist-manage.com/images/challangeiconenable.jpg" align="absmiddle">
-                            </td>
-                            <td>
-                              <span id="signupSuccessMsg"
-                                style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;word-break:break-word">&nbsp;&nbsp;Thank
-                                you for Signing Up</span>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+  <li class="md-tabs__item">
+    <a href="cameras/" class="md-tabs__link">
+      The Camera
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="characters/" class="md-tabs__link">
+      Rigged Characters
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="storyboards/" class="md-tabs__link">
+      Storyboards
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="changelogPage/" class="md-tabs__link">
+      Changelog
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="issues/" class="md-tabs__link">
+      Known Issues
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="SceneForge Studio" class="md-nav__button md-logo" aria-label="SceneForge Studio">
+      
+  <img src="img/SceneforgeLogo.png" alt="logo">
+
+    </a>
+    SceneForge Studio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="." class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="gettingStarted/" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="sceneControls/" class="md-nav__link">
+      Scene Controls
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="cameras/" class="md-nav__link">
+      The Camera
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="characters/" class="md-nav__link">
+      Rigged Characters
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="storyboards/" class="md-nav__link">
+      Storyboards
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="changelogPage/" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="issues/" class="md-nav__link">
+      Known Issues
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
                   </div>
-                  <form method="POST" id="zcampaignOptinForm" style="margin: 0px; width: 100%; padding: 0px 25px"
-                    action="https://maillist-manage.com/weboptin.zc" target="_zcSignup">
-                    <div
-                      style="background-color: rgb(255, 235, 232); padding: 10px; color: rgb(210, 0, 0); font-size: 11px; margin: 20px 10px 0px; border: 1px solid rgb(255, 217, 211); opacity: 1; display: none"
-                      id="errorMsgDiv">Please correct the marked field(s) below.</div>
-                    <div
-                      style="position: relative; margin: 15px 0 30px; width: 320px; height: 36px; display: inline-block"
-                      class="SIGNUP_FLD">
-                      <input type="text"
-                        style="font-size: 17px; border: 1px solid rgb(235, 235, 235); border-radius: 50px; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(136, 136, 136); text-align: left; font-family: &quot;Arial&quot;; background-color: transparent; background-color: rgb(255, 255, 255); box-sizing: border-box"
-                        placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL"
-                        id="EMBED_FORM_EMAIL_LABEL">
-                    </div>
-                    <div
-                      style="position: relative; width: 180px; height: 38px; margin: 0 0 0 20px; text-align: left; display: inline-block"
-                      class="SIGNUP_FLD">
-                      <input type="button"
-                        style="text-align: center; width: 100%; height: 100%; z-index: 5; border: 0px; color: rgb(255, 255, 255); cursor: pointer; outline: none; background-color: rgb(47, 48, 62); border-radius: 50px; font-size: 20px"
-                        name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Join Now">
-                    </div>
-                    <input type="hidden" id="fieldBorder" value="">
-                    <input type="hidden" id="submitType" name="submitType" value="optinCustomView">
-                    <input type="hidden" id="emailReportId" name="emailReportId" value="">
-                    <input type="hidden" id="formType" name="formType" value="QuickForm">
-                    <input type="hidden" name="zx" id="cmpZuid" value="12c699819">
-                    <input type="hidden" name="zcvers" value="3.0">
-                    <input type="hidden" name="oldListIds" id="allCheckedListIds" value="">
-                    <input type="hidden" id="mode" name="mode" value="OptinCreateView">
-                    <input type="hidden" id="zcld" name="zcld" value="1aeeb5e9a8c71109">
-                    <input type="hidden" id="document_domain" value="">
-                    <input type="hidden" id="zc_Url" value="publ.maillist-manage.com">
-                    <input type="hidden" id="new_optin_response_in" value="0">
-                    <input type="hidden" id="duplicate_optin_response_in" value="0">
-                    <input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW">
-                    <input type="hidden" id="zc_formIx" name="zc_formIx"
-                      value="3z9bc54e7ed39921e6d9129683abb92ffd82c07e4608ea9e962912b10968c2dfdb">
-                    <input type="hidden" id="viewFrom" value="URL_ACTION">
-                    <span style="display: none" id="dt_CONTACT_EMAIL">1,true,6,Contact Email,2</span>
-                  </form>
                 </div>
               </div>
-            </div>
-            <img src="https://publ.maillist-manage.com/images/spacer.gif" id="refImage" onload="referenceSetter(this)"
-              style="display:none;">
-          </div>
-          <input type="hidden" id="signupFormType" value="QuickForm_Horizontal">
-          <div id="zcOptinOverLay" oncontextmenu="return false"
-            style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;">
-          </div>
-          <div id="zcOptinSuccessPopup"
-            style="display:none;z-index: 9999;width: 800px; height: 40%;top: 84px;position: fixed; left: 26%;background-color: #FFFFFF;border-color: #E6E6E6; border-style: solid; border-width: 1px;  box-shadow: 0 1px 10px #424242;padding: 35px;">
-            <span style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;" id="closeSuccess">
-              <img src="https://publ.maillist-manage.com/images/videoclose.png">
-            </span>
-            <div id="zcOptinSuccessPanel"></div>
-          </div>
-          <!--Zoho Campaigns Web-Optin Form Ends Here-->
-          <br> <br> <br>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="welcome-to-sceneforge-studio">Welcome to SceneForge Studio</h1>
+<p><a href="http://www.tinyurl.com/JudahMantell">Learn more about the developer!</a></p>
+<div class='onesignal-customlink-container'></div>
 
-          <!-- LOGO -->
-          <!-- <svg viewBox="0 0 48 48" height="48" width="48" class="ui-section-close--logo">
-              <rect fill="#353535" height="48" width="48" rx="8"/>
-              <path fill="#FFF" d="M12 13h6v12a6 6 0 0012 0v-4h6v4c0 6.627-5.373 12-12 12s-12-5.373-12-12V13zm24 6v-6h-6v6h6z"/>
-            </svg> -->
-          <img src="homeImages/SceneforgeLogo.png" alt="" width="100" />
-          <!-- COPYWRITING -->
-          <h2>SceneForge Studio</h2>
-          <!-- CTA -->
-          <div class="ui-component-cta ui-layout-flex">
-            <a href="#Signup" role="link" aria-label="#"
-              class="ui-component-button ui-component-button-normal ui-component-button-primary">Access the Alpha</a>
-            <p class="ui-text-note">
-              <small>For SteamVR-Ready Windows PCs.</small>
-            </p>
+<!-- ![Screenshot](img/moonLandscape.png) -->
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AmOswD2qZwM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H1BXDPQNIEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>This is the world's first all-in-one Virtual Production and Storyboarding software, built from the ground up for Virtual Reality.  It takes the difficult, expensive, and often proprietary Virtual Production technology that big Hollywood movie houses use and wraps it up into an easy-to-use package for the "prosumer" market. 
+<em>It's the iMovie of Virtual Production</em>, allowing users to build full-scale film sets, rig up lights, record motion capture data, and output up to 8K, all within a custom virtual soundstage. The PC-based software comes with a companion app that turns any mobile device into a compatible, wireless virtual camera, tracked in 3D space, without the need for extra hardware.  
+<em>It's easy enough for the average consumer, but powerful enough for the seasoned professional.</em></p>
+                
+              
+              
+                
+
+
+              
+            </article>
           </div>
         </div>
-      </div>
-
-    </section>
-
-  </main>
-  <footer role="contentinfo" class="ui-section-footer">
-    <div class="ui-layout-container">
-      <div class="ui-section-footer__layout ui-layout-flex">
-        <!-- COPYRIGHT -->
-        <p class="ui-section-footer--copyright ui-text-note">
-          <a href="https://www.midnightcoffeeinc.com"><small>&copy; 2021 MidnightCoffee, Inc.</small></a>
-        </p>
-        <!-- MENU -->
-        <!-- <a href="#" role="link" aria-label="#" class="ui-text-note"
-            ><small>Features</small></a
-          >
-          <a href="#" role="link" aria-label="#" class="ui-text-note"
-            ><small>Help</small></a
-          >
-          <a href="#" role="link" aria-label="#" class="ui-text-note"
-            ><small>Terms</small></a
-          > -->
-      </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="gettingStarted/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Getting Started
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     </div>
-  </footer>
-</body>
-
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.08c56446.min.js"></script>
+      <script src="assets/javascripts/bundle.6ced434e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
 </html>
