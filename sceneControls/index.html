@@ -351,19 +351,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-controller-menu" class="md-nav__link">
-    The Controller Menu
+  <a href="#the-properties-menu" class="md-nav__link">
+    The Properties Menu
   </a>
   
-    <nav class="md-nav" aria-label="The Controller Menu">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#object-properties-panel" class="md-nav__link">
-    Object Properties Panel
-  </a>
-  
-    <nav class="md-nav" aria-label="Object Properties Panel">
+    <nav class="md-nav" aria-label="The Properties Menu">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -377,6 +369,14 @@
     </nav>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#the-scene-menu" class="md-nav__link">
+    The Scene Menu
+  </a>
+  
+    <nav class="md-nav" aria-label="The Scene Menu">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#object-spawn-menu" class="md-nav__link">
@@ -515,19 +515,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-controller-menu" class="md-nav__link">
-    The Controller Menu
+  <a href="#the-properties-menu" class="md-nav__link">
+    The Properties Menu
   </a>
   
-    <nav class="md-nav" aria-label="The Controller Menu">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#object-properties-panel" class="md-nav__link">
-    Object Properties Panel
-  </a>
-  
-    <nav class="md-nav" aria-label="Object Properties Panel">
+    <nav class="md-nav" aria-label="The Properties Menu">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -541,6 +533,14 @@
     </nav>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#the-scene-menu" class="md-nav__link">
+    The Scene Menu
+  </a>
+  
+    <nav class="md-nav" aria-label="The Scene Menu">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#object-spawn-menu" class="md-nav__link">
@@ -619,40 +619,40 @@ The options available are as follows:</p>
 <p>Your right controller has a pointer that can interact with UI and objects.
 To interact with an object, click the right trigger while pointing at at either a UI panel or object in the scene.
 When you click an object, it becomes highlighted. Click the object again to unhighlight it.</p>
-<p>A selected object displays a bounding box around the object.  Additionally, a <code>Movement Gizmo</code> appears at the pointer's location.  Click and drag this gizmo to move the object around the scene.</p>
-<p>Use the Right Joystick or Touchpad to rotate the object left and right, as well as move it forward and back.  </p>
-<p>To toggle scale mode (as indicated by the small <code>Transform</code> Gizmo on the right controller), press the (B) button on your right controller.  This button varies depending on what controllers you are using, but they are largely the same.</p>
-<h2 id="the-controller-menu">The Controller Menu</h2>
-<p><strong>Your Left Controller has a menu pallette that can bring up other context-sensitive menus.</strong></p>
+<p>A selected object gets highlighted in orange.  To move an object or UI panel around the scene, make sure it's selected, then point at the object, and hold down the grip button.  </p>
+<p>Use the Right Joystick or Touchpad push it forward or back (up or down on the touchpad/joystick), or scale it up and down (left and right on the touchpad/joystick).</p>
+<p>To toggle rotate mode (as indicated by the small icon on the right controller), press the (B) button on your right controller.  This button varies depending on what controllers you are using, but they are largely the same. Now you can use the touchpad/joystick to rotate the object along different axis.</p>
+<h2 id="the-properties-menu">The Properties Menu</h2>
+<p>When an object is selected, a properties panel will popup in front of you.  You can move this menu around using the grip button/pointer, or reaching out and actually grabbing it.</p>
+<p>Every object, when selected (except backdrops), brings up this default toolbar.<br />
+These functions delete the object, reset the rotation of the object, or toggle <em>interactability.</em> (Whether or not the object can be grabbed with the grip button.  This is not recommended for larger objects.)</p>
+<p><img alt="Screenshot" src="../img/objectPropertiesToolbar.png" /></p>
+<p>Below this mini-toolbar, are options specific to the type of object.  In this example, a light is selected.
+<img alt="Screenshot" src="../img/lightProperties.PNG" width="382" /></p>
+<h4 id="backdrop-selector-panel">Backdrop Selector Panel</h4>
+<p>If you select a backdrop object with the pointer, it will highlight and the properties panel will change to a backdrop selector panel.  Here you can choose from a grid of textures to apply to the backdrop.  These textures are taken from the <code>Textures</code> folder in your project.  See Getting Started page for more info about custom assets. </p>
+<h2 id="the-scene-menu">The Scene Menu</h2>
+<p><strong>Your Left Controller can toggle a "Scene Menu" that can bring up other menus.</strong></p>
 <p><img alt="Screenshot" src="../img/controllerMenu.PNG" /></p>
 <p><strong>From top to bottom, each button changes what menu is displayed to the right (see below).</strong></p>
 <p><em>For a detailed overview of each menu, see section below.</em></p>
 <ul>
-<li>Properties -- This menu shows either the scene hierarchy or any properties of the selected object.</li>
 <li>Objects -- This menu displays a grid of available objects including standard assets and imported assets. Select an item to spawn it into the scene.</li>
 <li>Lighting -- This menu has many functions to change the lighting of the scene (see below).</li>
+<li>Camera -- This menu brings up global settings for all cameras in the scene.  This includes resolution settings, and many different post processing effects.  </li>
 <li>Settings -- This menu has many functions relating to the opened project and Sceneforge as a whole (see below).</li>
 </ul>
-<h3 id="object-properties-panel">Object Properties Panel</h3>
-<p>This panel will show either the scene hierarchy or object properties depending on if/what object is selected.  </p>
-<p>Every object, when selected (except backdrops), brings up this default toolbar.<br />
-These functions delete the object, reset the rotation of the object, or toggle <em>interactability.</em> (Whether or not the object can be grabbed with the grip button.  This is not recommended for larger objects.)</p>
-<p><img alt="Screenshot" src="../img/objectPropertiesToolbar.png" /></p>
-<p>In the example below, there will either be a list of objects in the scene (left; there aren't any objects yet) or options specific to the type of object (right; a light is selected).</p>
-<p><img alt="Screenshot" src="../img/hierarchy.PNG" />
-<img alt="Screenshot" src="../img/lightProperties.PNG" width="382" /></p>
-<h4 id="backdrop-selector-panel">Backdrop Selector Panel</h4>
-<p>If you select the backdrop with the pointer, it will highlight and the properties panel will change to a backdrop selector panel.  Here you can choose from a grid of textures to apply to the backdrop.  These textures are taken from the <code>Textures</code> folder in your project.  See Getting Started page for more info about custom assets. </p>
 <hr />
 <h3 id="object-spawn-menu">Object Spawn Menu</h3>
 <p>This panel will display a list of available objects to spawn into the scene.  This list includes custom imported objects, and objects that are included with the software.  In the future there will also be options to spawn in effects (weather, etc).</p>
 <p>To spawn in an object, just point and click on one of the tiles.  The object will spawn in front of you, and will be added to the scene hierarchy </p>
 <p><img alt="Screenshot" src="../img/spawnObject.PNG" /></p>
+<p>You can also spawn lights and cameras, which each have their own unique properties.  See Camera page for more info.</p>
 <hr />
 <h3 id="lighting-menu-panel">Lighting Menu Panel</h3>
-<p>This panel will display a list of all available skyboxes for the scene.  Select a skybox to assign it to the scene.  The ambient lighting of the scene may also change to reflect the skybox.</p>
-<p>At the top of the panel, the add light button will spawn a light in front of you.<br />
-The sun object above the panel can be grabbed and rotated to change the position of the sun/global directional light.</p>
+<p>This panel has two options:
+*  A list of all available skyboxes for the scene.  Select a skybox to assign it to the scene.  The ambient lighting of the scene may also change to reflect the skybox.
+* Options for dymanic time of day and weather settings.  These settings overrride any custom skybox options and are only available for the "Basic" and "Pro" plans.</p>
 <p><img alt="Screenshot" src="../img/lightingPanel.PNG" /></p>
 <hr />
 <h3 id="settings-menu-panel">Settings Menu Panel</h3>
